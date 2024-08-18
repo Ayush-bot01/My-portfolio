@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <header id="head">
+        <div id="logo">My portfolio</div>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Resume</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="side">
+            <div class="icon"><a href="https://www.instagram.com/life_through_lensess_?igsh=MXdncXFtdGxxOGRsbw=="><i
+                        class="fa fa-instagram"></i></a></div>
+            <div class="icon"><a
+                    href="https://www.linkedin.com/in/ayush-gupta-a87878292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fa fa-linkedin"></i></a></div>
+            <div class="icon"><a href="https://github.com/Ayush-bot01"><i class="fa fa-github"></i></a></div>
+            <div class="icon"><a href=""><i class="fa fa-phone"></i></a></div>
+        </div>
+    </header>
+    <!-- moving image section -->
+    <section>
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <img src="road.png" id="road">
+        <div id="text">
+            <div class="hello">Hello,</div>
+            <p>
+                <span class="name">I'm </span>
+                <span class="ayu">Ayush gupta</span>
+            </p>
+            <div class="texts">A web developer</div>
+        </div>
+    </section>
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mee.jfif" height="400px" width=auto alt="me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="big-text">
+                        <span class="one">About </span>
+                        <span class="two">me</span>
+                    </h1>
+                    <p class="para">As a frontend web developer passionate about crafting seamless user experiences, I'm
+                        on a journey
+                        to enhance my skill set by delving into Java. With a keen eye for design and a drive for
+                        innovation, I thrive
+                        on challenges and am committed to staying ahead in the ever-evolving tech landscape.
+                        Let's connect and collaborate on bringing ideas to life!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>10th <br><span>Bridgeford School</span></li>
+                            <li>12th <br><span>Bridgeford School</span></li>
+                            <li>B-tech CSE <br><span>SOA-ITER</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li>Web development <br><span>HTML, CSS, JavaScript</span></li>
+                            <li>Coding language <br><span>Java, Python</span></li>
+                            <li>UI/UX <br><span>SQL</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Web page <br><span> ROG</span></li>
+                            <li>Game <br><span>RPS</span></li>
+                            <li>Portfolio <br><span>For self</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- project section -->
+    <div class="mypro">My projects</div>
+    <!-- slider section -->
+    <div id="ayush">
+        <!-- carousel -->
+        <div class="carousel">
+            <!-- list item -->
+            <div class="list">
+                <div class="item">
+                    <img src="rog.jpeg">
+                    <div class="content">
+
+                        <div class="title rog1">PROJECT - 01</div>
+                        <div class="topic rog1">LANDING PAGE</div>
+                        <div class="des">
+                            <p>This is a landing page for ROG</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="para.jpeg">
+                    <div class="content">
+
+                        <div class="title">PROJECT - 02</div>
+                        <div class="topic">MY PORTFOLIO</div>
+                        <div class="des">
+                            <p>This is a portfolio for self</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="chatbot.jpeg">
+                    <div class="content">
+
+                        <div class="title">PROJECT - 03</div>
+                        <div class="topic">CHATBOT</div>
+                        <div class="des">
+                            <p>This is a chatbot </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="rps.jpeg">
+                    <div class="content">
+
+                        <div class="title">PROJECT - 04</div>
+                        <div class="topic">RPS</div>
+                        <div class="des">
+                            <p>This is a rock paper scissors game</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- list thumnail -->
+            <div class="thumbnail">
+                <div class="item">
+                    <img src="rog.jpeg">
+                    <div class="content">
+                        <div class="title">
+                            ROG
+                        </div>
+                        <div class="description">
+                            Landing page
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="para.jpeg">
+                    <div class="content">
+                        <div class="title">
+                            MY PORTFOLIO
+                        </div>
+                        <div class="description">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="chatbot.jpeg">
+                    <div class="content">
+                        <div class="title">
+                            Chatbot
+                        </div>
+                        <div class="description">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="rps.jpeg">
+                    <div class="content">
+                        <div class="title">
+                            ROCK PAPER
+                        </div>
+                        <div class="description">
+                            SCISSOR
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next prev -->
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+
+           
+            <!-- time running -->
+            <div class="time"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js">
+
+
+    </script>
+
+</body>
+
+</html>
